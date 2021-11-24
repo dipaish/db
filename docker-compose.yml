@@ -1,9 +1,9 @@
 version: '3'
  
 services:
-  db:
+  dbgit:
     image: mysql:latest
-    container_name: db
+    container_name: dbgit
     environment:
       MYSQL_ROOT_PASSWORD: password
     ports:
